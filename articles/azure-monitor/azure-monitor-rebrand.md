@@ -24,7 +24,7 @@ ms.locfileid: "46980468"
 本文介绍了最近对 Azure 管理服务所做的品牌和名称更改。 
 
 ## <a name="consolidation-of-monitoring-services-into-azure-monitor"></a>将监视服务合并到了 Azure Monitor 中
-Log Analytics 和 Application Insights 已整合到 Azure Monitor 中，以便为 Azure 资源和混合环境的监视提供单一集成的体验。 没有从这些服务中删除任何功能，并且用户可以与之前一样执行相同的方案，没有失去或减弱任何功能。
+Log Analytics 和 Application Insights 已整合到 Azure Monitor 中，以便为 Azure 资源和混合环境的监视提供单一集成的体验。 整合后没有从这些服务中删除任何功能，并且用户可以与之前一样执行相同的方案，没有失去或减弱任何功能。
 
 这些服务的文档已整合到 Azure Monitor 的单个文档集中。 这有助于读者在单个位置中查找适用于特定监视方案的所有内容，不必参考多个内容集。 随着整合的服务的发展，内容将变得更加集成。
 
