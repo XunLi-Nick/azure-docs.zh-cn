@@ -23,10 +23,10 @@ ms.locfileid: "51257293"
 通过协调和自动化 Azure VM 复制（本地区域虚拟机和物理服务器到 Azure；本地计算机到辅助数据中心），Site Recovery 可帮助实现业务连续性与灾难恢复 (BCDR) 策略。 [了解详细信息](site-recovery-overview.md)。
 
 ### <a name="what-can-site-recovery-protect"></a>站点恢复可以保护哪些计算机？
-* Azure VM：Site Recovery 可复制受支持 Azure VM 上运行的任何工作负荷
-* **Hyper-V 虚拟机**：站点恢复可以保护 Hyper-V VM 上运行的任何工作负荷。
+* Azure VM：Site Recovery 可复制受支持 Azure VM 上运行的任何工作负载。
+* **Hyper-V 虚拟机**：站点恢复可以保护 Hyper-V VM 上运行的任何工作负载。
 * **物理服务器**：站点恢复可以保护运行 Windows 或 Linux 的物理服务器。
-* **VMware 虚拟机**：站点恢复可以保护 VMware VM 上运行的任何工作负荷。
+* **VMware 虚拟机**：站点恢复可以保护 VMware VM 上运行的任何工作负载。
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "51257293"
 不可以。VM 必须位于在受支持的 Windows 服务器计算机上运行的 Hyper-V 主机服务器上。 如果需要保护客户端计算机，可以将其作为物理计算机复制到 [Azure](site-recovery-vmware-to-azure.md) 或[辅助数据中心](site-recovery-vmware-to-vmware.md)。
 
 ### <a name="what-workloads-can-i-protect-with-site-recovery"></a>我可以使用站点恢复来保护哪些工作负荷？
-可以使用站点恢复来保护在支持的 VM 或物理服务器上运行的大多数工作负荷。 站点恢复为应用程序感知型复制提供支持，因此，应用可以恢复为智能状态。 它除了与 Microsoft 应用程序（例如 SharePoint、Exchange、Dynamics、SQL Server 及 Active Directory）集成之外，还能与行业领先的供应商（包括 Oracle、SAP、IBM 及 Red Hat）紧密配合。 [详细了解](site-recovery-workload.md)工作负荷保护。
+可以使用站点恢复来保护在支持的 VM 或物理服务器上运行的大多数工作负载。 站点恢复为应用程序感知型复制提供支持，因此，应用可以恢复为智能状态。 它除了与 Microsoft 应用程序（例如 SharePoint、Exchange、Dynamics、SQL Server 及 Active Directory）集成之外，还能与行业领先的供应商（包括 Oracle、SAP、IBM 及 Red Hat）紧密配合。 [详细了解](site-recovery-workload.md)工作负荷保护。
 
 ### <a name="do-hyper-v-hosts-need-to-be-in-vmm-clouds"></a>Hyper-V 主机是否需要位于 VMM 云中？
 如果要复制到辅助数据中心，那么 Hyper-V VM 就必须位于 VMM 云中的 Hyper-V 主机服务器上。 如果想要复制到 Azure，那么可以复制 VM（无论是否使用 VMM 云）。 [详细了解](tutorial-hyper-v-to-azure.md)从 Hyper-V 复制到 Azure。
